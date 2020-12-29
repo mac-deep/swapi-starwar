@@ -6,4 +6,6 @@ import axios from "axios";
 export const fetchFilm = async () => {
   const res = await fetch("https://swapi.dev/api/films/1?format=json");
   const { data } = await res.json();
+  // setFilms(data.results);
+  // setConfirm(true);
 };

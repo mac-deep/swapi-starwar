@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Films.module.css";
+import { Link } from "react-router-dom";
+import Fullpage from "./Fullpage";
 
 const Card = ({
   title,
@@ -8,7 +10,16 @@ const Card = ({
   opening_crawl,
   release_date,
   episode_id,
+  characters,
+  url,
 }) => {
+  const links = {
+    textDecoration: "none",
+  };
+  console.log(url[url.length - 2]);
+  // (onClick) => <Characters characters={characters} />;
+  // console.log(characters);
+  // (onClick) => <Planets planets={planets} />;
   return (
     <div className={styles.filmMain}>
       <div>
@@ -28,7 +39,11 @@ const Card = ({
             <b>Producer: </b>
             {producer}
           </p>
-          <button>Know More</button>
+          <div className={styles.btnContainer}>
+            <Link style={links} to={`/films/${url[url.length - 2]}`}>
+              <button className={styles.btn}>Know More</button>
+            </Link>
+          </div>
         </div>
 
         <div className={styles.info}>{/* <p>{opening_crawl}</p> */}</div>
