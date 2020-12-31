@@ -30,6 +30,3 @@ const Card = ({ name, model, id, passengers }) => {
 };
 
 export default Card;
-
-{
-}

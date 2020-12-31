@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Films.module.css";
 import { Link } from "react-router-dom";
-import Fullpage from "./Fullpage";
 
 const Card = ({
   title,
@@ -11,7 +10,7 @@ const Card = ({
   release_date,
   episode_id,
   characters,
-  url,
+  url, //https://swapi.dev/api/films/1/
 }) => {
   const links = {
     textDecoration: "none",

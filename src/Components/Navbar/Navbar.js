@@ -9,6 +9,7 @@ function Navbar() {
           <h2>
             <img
               className="starwarLogo"
+              alt="Starwars"
               src="http://imagizer.imageshack.com/a/img922/3783/oyvsRd.png"
             ></img>
           </h2>
@@ -16,16 +17,16 @@ function Navbar() {
 
         <ul className="nav-links">
           <Link className="nav-links-link" to="/films">
-            <li>Films</li>
+            <li className="nav-link">Films </li>
           </Link>
           <Link className="nav-links-link" to="/starships">
-            <li>StarShips</li>
+            <li className="nav-link">StarShips </li>
           </Link>
           <Link className="nav-links-link" to="/people">
-            <li>People</li>
+            <li className="nav-link">People</li>
           </Link>
           <Link className="nav-links-link" to="/planets">
-            <li>Planets</li>
+            <li className="nav-link">Planets</li>
           </Link>
         </ul>
       </nav>

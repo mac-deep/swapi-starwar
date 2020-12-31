@@ -1,16 +1,14 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import LoadingPage from "../LoadingPage";
 import Card from "./Card";
 import styles from "./Films.module.css";
-import Fullpage from "./Fullpage";
-import { Route, BrowserRouter as Router } from "react-router-dom";
-// import { fetchFilm } from "../API";
 
 function Films() {
   const [confirm, setConfirm] = useState(false);
   const [films, setFilms] = useState([]);
 
-  useEffect(async () => {
+  useEffect(() => {
     async function fetchFilm() {
       const response = await fetch("https://swapi.dev/api/films/");
       const data = await response.json();
@@ -39,7 +37,7 @@ function Films() {
       ))}
     </div>
   ) : (
-    <p>Loading...</p>
+    <LoadingPage />
   );
 }
 
