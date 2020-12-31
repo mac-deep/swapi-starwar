@@ -42,8 +42,8 @@ function Species({ eachSpecies }) {
   }, [eachSpecies]);
   return (
     <div>
-      {speciesDetail.map((species) => (
-        <div>
+      {speciesDetail.map((species, index) => (
+        <div key={index}>
           <p>{species.name}</p>
         </div>
       ))}

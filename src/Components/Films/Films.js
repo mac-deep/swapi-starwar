@@ -17,7 +17,6 @@ function Films() {
     }
     fetchFilm();
   }, []);
-  console.log(films);
 
   return confirm ? (
     <div className={styles.container}>

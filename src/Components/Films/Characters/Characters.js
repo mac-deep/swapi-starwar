@@ -46,8 +46,8 @@ function Characters({ eachCharacter }) {
     <>
       {confirm ? (
         <>
-          {characterDetail.map((character) => (
-            <div>
+          {characterDetail.map((character, index) => (
+            <div key={index}>
               <p>{character.name}</p>
             </div>
           ))}

@@ -42,8 +42,8 @@ function Starships({ eachStarship }) {
   }, [eachStarship]);
   return (
     <div>
-      {starshipDetail.map((starship) => (
-        <div>
+      {starshipDetail.map((starship, index) => (
+        <div key={index}>
           <p>{starship.name}</p>
         </div>
       ))}

@@ -42,10 +42,8 @@ function Planets({ eachPlanet }) {
   }, [eachPlanet]);
   return (
     <div>
-      {planetDetail.map((planet) => (
-        <div>
-          <p>{planet.name}</p>
-        </div>
+      {planetDetail.map((planet, index) => (
+        <p key={index}>{planet.name}</p>
       ))}
     </div>
   );

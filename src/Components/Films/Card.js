@@ -10,15 +10,12 @@ const Card = ({
   release_date,
   episode_id,
   characters,
-  url, //https://swapi.dev/api/films/1/
+  url,
 }) => {
   const links = {
     textDecoration: "none",
   };
-  console.log(url[url.length - 2]);
-  // (onClick) => <Characters characters={characters} />;
-  // console.log(characters);
-  // (onClick) => <Planets planets={planets} />;
+
   return (
     <div className={styles.filmMain}>
       <div>
