@@ -20,7 +20,7 @@ function Fullpage({ match }) {
       setConfirm(true);
     }
     fetchSingleFilm();
-  }, []);
+  }, [match]);
 
   return confirm ? (
     <div className={styles.container}>

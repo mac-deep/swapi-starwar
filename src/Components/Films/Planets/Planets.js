@@ -39,7 +39,7 @@ function Planets({ eachPlanet }) {
       .catch((error) => {
         console.log("error", error);
       });
-  }, []);
+  }, [eachPlanet]);
   return (
     <div>
       {planetDetail.map((planet) => (

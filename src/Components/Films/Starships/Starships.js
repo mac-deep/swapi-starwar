@@ -39,7 +39,7 @@ function Starships({ eachStarship }) {
       .catch((error) => {
         console.log("error", error);
       });
-  }, []);
+  }, [eachStarship]);
   return (
     <div>
       {starshipDetail.map((starship) => (

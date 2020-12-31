@@ -41,7 +41,7 @@ function Characters({ eachCharacter }) {
       .catch((error) => {
         console.log("error", error);
       });
-  }, []);
+  }, [eachCharacter]);
   return (
     <>
       {confirm ? (

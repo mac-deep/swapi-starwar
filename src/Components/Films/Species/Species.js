@@ -39,7 +39,7 @@ function Species({ eachSpecies }) {
       .catch((error) => {
         console.log("error", error);
       });
-  }, []);
+  }, [eachSpecies]);
   return (
     <div>
       {speciesDetail.map((species) => (
