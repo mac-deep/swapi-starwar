@@ -10,7 +10,7 @@ function Films() {
 
   useEffect(() => {
     async function fetchFilm() {
-      const response = await fetch("https://swapi.dev/api/films/");
+      const response = await fetch(`https://swapi.dev/api/films/`);
       const data = await response.json();
       setFilms(data.results);
       setConfirm(true);
@@ -20,7 +20,6 @@ function Films() {
 
   return confirm ? (
     <div className={styles.container}>
-      {/* <div className={styles.heading}>STARWARS FILMS</div> */}
       {films.map((films) => (
         <Card
           key={films.url}

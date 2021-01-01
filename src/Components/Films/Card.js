@@ -22,7 +22,6 @@ const Card = ({
         <h2 className={styles.filmTitle}>{title}</h2>
       </div>
       <div className={styles.epId}>{episode_id}</div>
-
       <div>
         <div className={styles.content}>
           <p className={styles.bold}>
@@ -40,16 +39,6 @@ const Card = ({
               <button className={styles.btn}>Know More</button>
             </Link>
           </div>
-        </div>
-
-        <div className={styles.info}>{/* <p>{opening_crawl}</p> */}</div>
-        <div>
-          {/* <b>Starships:</b> */}
-          {/* {starships.map((starships) => (
-            <ul>
-              <li>{starships.name}</li>
-            </ul>
-          ))} */}
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ function Navbar() {
             <img
               className="starwarLogo"
               alt="Starwars"
-              src="http://imagizer.imageshack.com/a/img922/3783/oyvsRd.png"
+              src="https://imagizer.imageshack.com/a/img922/3783/oyvsRd.png"
             ></img>
           </h2>
         </Link>
