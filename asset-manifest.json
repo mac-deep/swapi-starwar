@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/swapi-starwar/static/css/main.a6f01ae9.chunk.css",
+    "main.js": "/swapi-starwar/static/js/main.f738fb09.chunk.js",
+    "main.js.map": "/swapi-starwar/static/js/main.f738fb09.chunk.js.map",
+    "runtime-main.js": "/swapi-starwar/static/js/runtime-main.78bc7621.js",
+    "runtime-main.js.map": "/swapi-starwar/static/js/runtime-main.78bc7621.js.map",
+    "static/js/2.f282ad27.chunk.js": "/swapi-starwar/static/js/2.f282ad27.chunk.js",
+    "static/js/2.f282ad27.chunk.js.map": "/swapi-starwar/static/js/2.f282ad27.chunk.js.map",
+    "index.html": "/swapi-starwar/index.html",
+    "static/css/main.a6f01ae9.chunk.css.map": "/swapi-starwar/static/css/main.a6f01ae9.chunk.css.map",
+    "static/js/2.f282ad27.chunk.js.LICENSE.txt": "/swapi-starwar/static/js/2.f282ad27.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78bc7621.js",
+    "static/js/2.f282ad27.chunk.js",
+    "static/css/main.a6f01ae9.chunk.css",
+    "static/js/main.f738fb09.chunk.js"
+  ]
+}
